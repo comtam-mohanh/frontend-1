@@ -1,0 +1,76 @@
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.card {
+    max-width: 50vw;
+    min-width: fit-content;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    top: 50%;
+    box-shadow: 5px 5px 10px grey;
+
+}
+
+p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.divider {
+    height: 1px;
+    background-color: grey;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+git a {
+    color: lightblue;
+}
+
+input {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    box-sizing: content-box;
+    margin-bottom: 10px;
+}
+
+.create-account-btn {
+    background-color: rgb(255, 166, 0);
+    height: 40px;
+    font-weight: bold;
+    width: 80%;
+    box-shadow: none;
+    border: 0;
+}
+
+img {
+    max-width: 50%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 0 10px 10px 0;
+}
+
+h2 {
+    color: darkblue;
+    font-family: sans-serif;
+    max-width: 90%;
+    text-align: center;
+    margin: 20px auto;
+}
