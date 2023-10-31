@@ -1,31 +1,39 @@
 body {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*margin: 100px 20px 50px 20px;*/
+    padding: 120px 80px 80px 80px;
 }
 
 .card {
-    max-width: 50vw;
+    max-width: max-content;
     min-width: fit-content;
-    height: 50vh;
     background-color: white;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    border-radius: 10px;
-    top: 50%;
-    box-shadow: 5px 5px 10px grey;
-
+    border-radius: 12px;
+    box-shadow: 4px 2px 12px grey;
+    padding: 0;
+    margin: 0;
 }
 
-p {
-    width: 80%;
+.form {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    background-color: blue;
+    ;
+}
+
+.form p {
     text-align: center;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 12px 12px 20px 20px;
     font-size: small;
 }
 
@@ -37,40 +45,36 @@ p {
     margin-top: 50px;
 }
 
-git a {
+a {
     color: lightblue;
+    text-decoration: none;
 }
 
 input {
-    display: block;
-    margin: auto;
-    width: 80%;
-    height: 30px;
-    border-radius: 5px;
-    box-sizing: content-box;
-    margin-bottom: 10px;
+    border-radius: 4px;
+    margin: 0 16px 16px 16px;
 }
 
 .create-account-btn {
     background-color: rgb(255, 166, 0);
-    height: 40px;
+    padding: 16px;
     font-weight: bold;
-    width: 80%;
+    margin-left: 16px;
+    margin-right: 16px;
     box-shadow: none;
     border: 0;
 }
 
 img {
     max-width: 50%;
-    height: 100%;
     object-fit: fill;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 12px 12px 0;
+    background-color: green;
 }
 
-h2 {
+.form h2 {
     color: darkblue;
     font-family: sans-serif;
-    max-width: 90%;
+    margin: 16px 32px;
     text-align: center;
-    margin: 20px auto;
 }
