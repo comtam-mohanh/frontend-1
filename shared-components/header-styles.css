@@ -81,3 +81,7 @@ div>.logo {
 .header-left:hover .dropdown-content {
     display: block;
 }
+
+iframe[seamless] {
+    border: none;
+}
