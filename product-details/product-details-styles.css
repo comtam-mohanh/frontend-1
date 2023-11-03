@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: darkslateblue
+}
+
+.product-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+}
+
+.details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+img {
+    display: flex;
+    flex: 1;
+    max-width: 50vw;
+    max-height: 50vh;
+    object-fit: fill;
+}
+
+.color {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 90px;
+}
+
+.first {
+    background-color: chartreuse;
+}
+
+.second {
+    background-color: blueviolet;
+}
+
+.third {
+    background-color: chocolate;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: smaller;
+}
+
+.add-btn {
+    background-color: rgb(255, 166, 0);
+    padding: 16px;
+    font-weight: bold;
+    box-shadow: none;
+    border: 0;
+    border-radius: 4px;
+    margin: 20px 4px 4px 4px;
+    width: 100%;
+}
+
+.Extra-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    min-width: fit-content;
+}
+
+.Extra-info>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.small-divider,
+.large-divider {
+    height: 1px;
+    background-color: grey;
+    backdrop-filter: blur(20px);
+    width: 100%;
+}
+
+.large-divider {
+    margin-top: 5vh;
+}
+
+.suggestion {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 4px;
+    color: white;
+    font-size: normal;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 45%;
+    padding: 24px;
+}
+
+.img-text>.pic-btn {
+    background-color: lightgrey;
+    padding: 8px 40px;
+    font-weight: bold;
+    box-shadow: none;
+    border: 0;
+    border-radius: 4px;
+}
+
+.product-one {
+    flex: 1;
+    padding: 10px;
+}
+
+.product-two {
+    flex: 1;
+    padding: 10px;
+}
